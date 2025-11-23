@@ -4,7 +4,7 @@
  * Plugin URI:        
  * Description:       Automatically recalculates taxes and totals when saving admin-created orders.
  * Version:           1.0.1
- * Author:            Josiah
+ * Author:            Josiah Troup
  * Author URI:        
  * Text Domain:       wact
  * Domain Path:       /languages
