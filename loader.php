@@ -3,7 +3,7 @@
  * Plugin Name:       WooCommerce Auto Calculate Total
  * Plugin URI:        
  * Description:       Automatically recalculates taxes and totals when saving admin-created orders.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Josiah Troup
  * Author URI:        
  * Text Domain:       wact
