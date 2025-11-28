@@ -49,12 +49,12 @@ function validate_modified_order_field( $order_id, $post ) {
 
 	if (empty($payment_method)) {
 		// Display an error and prevent saving if validation fails
-		WC_Admin_Meta_Boxes::add_error( __( 'Enter payment method', 'textdomain' ) );
+		WC_Admin_Meta_Boxes::add_error( __( 'WARN: Enter payment method', 'textdomain' ) );
 	}
 
     // Add your validation logic
     if (empty( $pi_system_delivery_date)) {
         // Display an error and prevent saving if validation fails
-        WC_Admin_Meta_Boxes::add_error( __( 'You must enter a delivery/pickup date for an order - Otherwise the order will not be created', 'textdomain' ) );
+        WC_Admin_Meta_Boxes::add_error( __( 'WARN: You must enter a delivery/pickup date for an order - Otherwise the order will not be created', 'textdomain' ) );
     }
 }
